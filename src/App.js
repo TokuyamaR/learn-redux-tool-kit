@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
+import TaskList from "./features/task/TaskList";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Counter />
+        <TaskList />
       </header>
     </div>
   );
